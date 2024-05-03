@@ -1,6 +1,5 @@
 # parameter-tampering-tool
 #Definition of parameter tampering
-
 1.Parameter tampering refers to the unauthorized modification of input parameters in HTTP requests to manipulate the behavior of a web application. This form of attack occurs when an attacker modifies input parameters such as URL parameters, form fields, cookies, or HTTP headers to exploit vulnerabilities or bypass security controls implemented by the application.
 
 2.clone the repository "https://github.com/yagneshyerra/parameter-tampering-tool.git"
@@ -20,3 +19,5 @@
 
 7.if the given URL is vulnerable to parameter tampering attack we can by using this tool as shown in the image that "input validation bypass is detected!"
 ![image](https://github.com/yagneshyerra/parameter-tampering-tool/assets/122748437/9646dac1-5234-4441-9967-98d8bb8f572e)
+
+this how this is used to detect that which URL is vulnerable to the parameter tampering attack.

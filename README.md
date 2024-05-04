@@ -26,6 +26,5 @@
 
 this how this is used to detect that which URL is vulnerable to the parameter tampering attack.
 
-8.if the given URL is not vulnerable to parameter tampering attack it wouldn't proceed any further or it will show error occurred (e.g., 404 Not Found)
-for example:www.techvertos.com
+8.if the given URL is not vulnerable to parameter tampering attack it wouldn't proceed any further or it will show error occurred (e.g., 404 Not Found) or it won't show any response status code. Let us take for example:www.techvertos.com.
 ![image](https://github.com/yagneshyerra/parameter-tampering-tool/assets/122748437/7fcd7b89-e162-4532-b22f-1cd20bf8bdf5)

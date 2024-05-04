@@ -1,5 +1,6 @@
 # parameter-tampering-tool
 #Definition of parameter tampering
+
 1.Parameter tampering refers to the unauthorized modification of input parameters in HTTP requests to manipulate the behavior of a web application. This form of attack occurs when an attacker modifies input parameters such as URL parameters, form fields, cookies, or HTTP headers to exploit vulnerabilities or bypass security controls implemented by the application.
 
 2.clone the repository "https://github.com/yagneshyerra/parameter-tampering-tool.git"
@@ -7,8 +8,11 @@
 3.run the python file CA3.py
 
 4.by using command -->python3 CA3.py -m GET -u http://example.com -H "User-Agent: MyCustomAgent" -p "id=1" -p "name=test"
+
   a)we have to specify the HTTP method (GET, POST, PUT, DELETE) and target URL.
+  
   b)Supports custom request headers (-H option) and URL parameters (-p option).
+  
   c)Sends the HTTP request to the target URL using the specified method and parameters.
 
 5.take a url to test if it is vulnerable to parameter tampering attack for eg:www.google.com
@@ -21,3 +25,7 @@
 ![image](https://github.com/yagneshyerra/parameter-tampering-tool/assets/122748437/9646dac1-5234-4441-9967-98d8bb8f572e)
 
 this how this is used to detect that which URL is vulnerable to the parameter tampering attack.
+
+8.if the given URL is not vulnerable to parameter tampering attack it wouldn't proceed any further or it will show error occurred (e.g., 404 Not Found)
+for example:www.techvertos.com
+![image](https://github.com/yagneshyerra/parameter-tampering-tool/assets/122748437/7fcd7b89-e162-4532-b22f-1cd20bf8bdf5)
